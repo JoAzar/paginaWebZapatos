@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 
 body {
@@ -10,65 +9,249 @@ body {
     background-size: cover;
     width: 100%;
     height: 330vh;
-    min-height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .cajaGrande {
     padding: 20px;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: min-content;
-    height: 60vh;
-    background-color: rgba(187, 187, 187, 0.267);
-
+    align-items: stretch;
+    height: 15vh;
+    background-color: rgba(68, 56, 16, 0.432);
 }
 
-.inicioImagen1 {
-    
+/*MEDIA SCREEN CELULARES ICONOS*/
+@media only screen and (max-width: 400px){
+    .cajaGrande{
+        padding: 20px;
+        align-items: stretch;
+        display: flex;
+        height: 15vh;
+        background-color: rgba(68, 56, 16, 0.432);
+    }
 }
 
 .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
     padding-top: 5vh;
-    color: rgb(226, 226, 226);
-    font-size: 3vh;
-    height: 50vh;
-    width: 30vh;
+    color: #ffffff;
+    font-size: 5vh;
+    width: 100%;
     text-decoration: none;
+    text-shadow: 4px 4px 5px black;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
-.inicioImagen2, .inicioImagen3, .inicioImagen4{
+
+.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
     background-repeat: no-repeat;
+    background-position: center;
     background-size: contain;
+    border-radius: 30px;
+}
+
+.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
+    background-size: 50vh;
 }
 
 .inicioImagen1 {
-    background-image: url(imagenes/fusil2.png);
-    background-size: 20vh;
-    background-repeat: no-repeat;
+    background-image: url(imagenes/jeep.png);
+}
+
+/*MEDIA SCREEN CELULARES ICONOS*/
+@media only screen and (max-width: 400px){
+    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
+        background-size: 10vh;
+        font-size: 2vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 50px;
+    }
 }
 
 .inicioImagen2{
-    background-image: url(imagenes/cuchillo.png);
+    background-image: url(imagenes/mira.jpg);
 }
 
 .inicioImagen3{
-    background-image: url(imagenes/granada.png);
+    background-image: url(imagenes/stuff.jpg);
 }
 
 .inicioImagen4{
-    background-image: url(imagenes/medalla.png);
+    background-image: url(imagenes/chica.png);
 }
-
 
 .inicioImagen1:hover,.inicioImagen2:hover,.inicioImagen3:hover,.inicioImagen4:hover {
-    text-shadow: 2px 2px 5px rgb(19, 19, 19);
-    filter: drop-shadow(0 0 0.75rem rgb(255, 2, 2));
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    text-shadow: 4px 4px 5px black;
 }
 
+/************************************ACERCA DE NOSOTROS*****************************************************/
+.imagenCajaGrande {
+    width: 100%;
+    height: 60%;
+    background: url(imagenes/nosotros.jpg);
+    backdrop-filter: blur(0.3rem);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/*MEDIA SCREEN CELULARES CAJAS IMAGEN FONDO*/
+@media only screen and (max-width: 400px){
+    .imagenCajaGrande {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+.muchoTexto {
+    color:white;
+    text-shadow: 3px 3px 3px black;
+    width: 80%;
+    height: fit-content;
+    font-size: 4vh;
+    backdrop-filter: none;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/*MEDIA SCREEN CELULARES .muchoTexto*/
+@media only screen and (max-width: 400px){
+    .muchoTexto {
+        color:white;
+        text-shadow: 3px 3px 3px black;
+        width: 90%;
+        height: fit-content;
+        font-size: 1.5vh;
+        backdrop-filter: none;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+    }
+}
+
+/*****************************************************************************************/
+
+.cajaGrande2 {
+    background-color: rgba(21, 39, 24, 0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    box-shadow: 1px 1px 5px 5px #3b3b3b, 1px 1px 24px 24px #161616;
+}
+
+.cajaChica1,.cajaChica2 {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 70vh;
+}
+
+/*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
+@media only screen and (max-width: 400px){
+    .cajaChica1,.cajaChica2 {
+        width: 60vh;
+        justify-content: space-between;
+    }
+}
+
+.cajaChica2{
+    align-self: center;
+}
+
+.linkedin {
+    
+    width: 10vh;
+    height: 10vh; 
+    background-image: url(imagenes/linkedinColor.png);
+    background-size: cover;
+}
+
+.linkedin:hover{
+    background-color: transparent;
+    filter: drop-shadow(0 0 0.75rem rgb(51, 86, 201));
+}
+
+.linkedinL {
+    background-color: transparent;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.linkedinL:hover { background-color: rgba(0, 102, 255, 0.664);}
+
+@media only screen and (max-width: 400px){
+    .linkedinL {font-size: 3vh;}
+}
+
+.instagram {
+    width: 10vh;
+    height: 10vh; 
+    background-image: url(imagenes/instagramColor.png);
+    background-size: cover;
+}
+
+.instagram:hover{
+    background-color: transparent;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 1, 234));
+}
+
+.instagramL {
+    background-color: transparent;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.instagramL:hover {background-color: rgb(187, 190, 7);}
+
+@media only screen and (max-width: 400px){
+    .instagramL {font-size: 3vh;}
+}
+
+.twitter {
+    width: 10vh;
+    height: 10vh; 
+    align-self: center;
+    background-image: url(imagenes/twitterColor.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    background-color: transparent;
+    filter: drop-shadow(0 0 0.75rem rgb(82, 224, 213));
+}
+
+.twitterL {
+    text-shadow: 3px 3px 3px black;
+    color: white;
+    background-color: transparent;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.twitterL:hover{background-color: rgba(82, 224, 212, 0.781);}
+
+@media only screen and (max-width: 400px){
+    .twitterL {font-size: 3vh;}
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .video {
     box-shadow: 1px 1px 5px 5px #353535, 1px 1px 24px 24px #000000;
@@ -78,7 +261,6 @@ body {
 }
 
 .footer > *{
-    background-color: rgb(32, 32, 32);
     height: 1vh;
     padding: 10vh;
 }
@@ -86,16 +268,19 @@ body {
 .footer {
     display: flex;
     flex-direction:row;
-    border-top: solid 3px rgb(39, 39, 39);
+    background-color: rgba(20, 20, 20, 0.829);
+    border-top: solid 3px rgba(39, 39, 39, 0.493);
     box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
     width: 100%;
 }
 
 .footer p {
     width: 43vh;
+    background-color: rgba(20, 20, 20, 0.829);
     text-shadow: 3px 3px 10px 10px rgb(233, 233, 233);
     color: whitesmoke;
     font-size: 3vh;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 /*MEDIA SCREEN CELULARES FOOTER*/
@@ -110,14 +295,14 @@ body {
 }
 
 .copyright, .copyright > *{ 
-    background-color: rgb(28, 90, 20);
+    background-color: rgba(20, 20, 20, 0.829);
     font-style: italic;
     text-decoration: underline rgb(226, 226, 226);
 }
 
 
 .subir {
-    background-color: rgb(60, 7, 109);
+    background-color: rgba(20, 20, 20, 0.829);
     width: 43vh;
     max-height: fit-content;
     display: flex;
@@ -132,13 +317,13 @@ body {
 }
 
 .icono:hover{
-    transform: scale(3);
+    transform: scale(4);
     height: 20px;
     width: 20px;
     transition: all 1s;
 }
 
-/*********************** slider ********************************/
+/*********************** slider Borcegos ********************************/
 .container-slider1, .container-slider2, .container-slider3, .container-slider4, .container-slider5  {
     width: 80%;
     max-width: 100vh;
@@ -147,7 +332,16 @@ body {
     position: relative;
     border-radius: 30px;
     margin-top: 40px;
-    
+}
+
+/*MEDIA SCREEN CELULARES productos*/
+@media only screen and (max-width: 400px){
+    .container-slider1, .container-slider2, .container-slider3, .container-slider4, .container-slider5 {
+        width: 90%;
+        object-fit: cover;
+        border-radius: 50px;
+        overflow: hidden;
+    }
 }
 
 .slider1, .slider2, .slider3, .slider4, .slider5 {
@@ -176,10 +370,8 @@ body {
 .slider__img5{background-image: url(imagenes/cammoVerde.jpg);}
 
 .slider__img1:hover, .slider__img2:hover, .slider__img3:hover, .slider__img4:hover ,.slider__img5:hover {
-    object-fit:scale-down;
+    object-fit: scale-down;
 }
-
-
 
 .slider__btn1, .slider__btn2, .slider__btn3, .slider__btn4, .slider__btn5 {
     position: absolute;

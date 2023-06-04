@@ -205,4 +205,32 @@ function subirArriba() {
       top: 0,
       behavior: "smooth"
     });
-  }
+}
+
+
+function changeColorBlue(element) {
+    var currentColor = element.style.color;
+    if(currentColor == "blue"){
+        element.style.color = "white";
+    }else{
+        element.style.color = "blue";
+    }
+}
+
+function changeColorYellow(element){
+    var currentColor = element.style.color;
+    if(currentColor == "yellow"){
+        element.style.color = "white";
+    }else{
+        element.style.color = "yellow";
+    }
+}
+
+function changeColorCian(element){
+    var currentColor = element.style.color;
+    if(currentColor == "skyblue"){
+        element.style.color = "white";
+    }else{
+        element.style.color = "skyblue";
+    }
+}
