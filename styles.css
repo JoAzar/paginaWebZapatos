@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
@@ -24,53 +23,114 @@ body {
     background-color: rgba(68, 56, 16, 0.432);
 }
 
-/*MEDIA SCREEN CELULARES ICONOS*/
-@media only screen and (max-width: 400px){
-    .cajaGrande{
-        padding: 20px;
-        align-items: stretch;
-        display: flex;
-        height: 15vh;
-        background-color: rgba(68, 56, 16, 0.432);
-    }
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
-    padding-top: 5vh;
-    color: white;
-    font-size: 5vh;
-    width: 100%;
-    text-decoration: none;
-    text-shadow: 4px 4px 5px black;
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border-radius: 30px;
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
-    background-size: 50vh;
-}
-
-.inicioImagen1 {
-    background-image: url(imagenes/jeep.png);
-}
-
-/*MEDIA SCREEN CELULARES ICONOS*/
-@media only screen and (max-width: 400px){
+/*MEDIA SCREEN CELULARES*/
+@media (max-width: 575.98px){
     .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
         background-size: 10vh;
         font-size: 2vh;
         background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 30px;
+        background-position: center;
+        padding-top: 5vh;
+        color: white;
+        width: 100%;
+        text-decoration: none;
+        text-shadow: 4px 4px 5px black;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        background-size: 50vh;
+        background-repeat: no-repeat;
+    }   
+}
+
+/*MEDIA SCREEN CELULARES GRANDES*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
+        background-size: 20vh;
+        font-size: 2.6vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-radius: 30px;
+        padding-top: 5vh;
+        color: white;
+        width: 100%;
+        text-decoration: none;
+        text-shadow: 4px 4px 5px black;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        background-size: 50vh;
+        background-repeat: no-repeat;
+    }
+}
+
+/*MEDIA SCREEN TABLET*/
+@media only screen and (min-width: 768px) and  (max-width: 991.98px){
+    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
+        background-size: 20vh;
+        font-size: 3vh;
         background-position: center;
         background-size: contain;
-        border-radius: 50px;
+        border-radius: 30px;
+        padding-top: 5vh;
+        color: white;
+        width: 100%;
+        text-decoration: none;
+        text-shadow: 4px 4px 5px black;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        background-size: 50vh;
+        background-repeat: no-repeat;
     }
+}
+
+/*MEDIA SCREEN COMPUTADORAS*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
+        padding-top: 5vh;
+        color: white;
+        font-size: 4vh;
+        width: 100%;
+        text-decoration: none;
+        text-shadow: 4px 4px 5px black;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        padding-top: 5vh;
+        color: white;
+        width: 100%;
+        background-size: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+    } 
+}
+
+/*MEDIA SCREEN COMPUTADORAS*/
+@media (min-width: 1200px){
+    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
+        padding-top: 5vh;
+        color: white;
+        font-size: 4vh;
+        width: 100%;
+        text-decoration: none;
+        text-shadow: 4px 4px 5px black;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        padding-top: 5vh;
+        color: white;
+        width: 100%;
+        background-size: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+    } 
+}
+
+.inicioImagen1 {
+    background-image: url(imagenes/jeep.png);
 }
 
 .inicioImagen2{
@@ -103,7 +163,7 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES CAJAS IMAGEN FONDO*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .imagenCajaGrande {
         width: 100%;
         height: 90vh;
@@ -121,7 +181,7 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES tamaño texto titulo*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .quienes {
         text-decoration: underline;
         font-size: 4vh;
@@ -149,7 +209,7 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES .muchoTexto*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .muchoTexto {
         color:white;
         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
@@ -182,10 +242,10 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .cajaChica1,.cajaChica2 {
-        width: 60vh;
-        justify-content: space-between;
+        font-size: 3vh;
+        width: 30vh;
     }
 }
 
@@ -193,12 +253,21 @@ body {
     align-self: center;
 }
 
-.linkedin {
-    
+.linkedin {  
     width: 10vh;
     height: 10vh; 
     background-image: url(imagenes/linkedinColor.png);
     background-size: cover;
+}
+
+/*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
+@media only screen and (max-width: 500px){
+    .linkedin {  
+        width: 5vh;
+        height: 5vh; 
+        background-image: url(imagenes/linkedinColor.png);
+        background-size: cover;
+    }
 }
 
 .linkedin:hover{
@@ -217,8 +286,8 @@ body {
 
 .linkedinL:hover { background-color: rgba(0, 102, 255, 0.664);}
 
-@media only screen and (max-width: 400px){
-    .linkedinL {font-size: 3vh;}
+@media only screen and (max-width: 500px){
+    .linkedinL {font-size: 2vh;}
 }
 
 .instagram {
@@ -227,6 +296,17 @@ body {
     background-image: url(imagenes/instagramColor.png);
     background-size: cover;
 }
+
+/*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
+@media only screen and (max-width: 500px){
+    .instagram{  
+        width: 5vh;
+        height: 5vh; 
+        background-image: url(imagenes/instagramColor.png);
+        background-size: cover;
+    }
+}
+
 
 .instagram:hover{
     background-color: transparent;
@@ -244,8 +324,8 @@ body {
 
 .instagramL:hover {background-color: rgb(187, 190, 7);}
 
-@media only screen and (max-width: 400px){
-    .instagramL {font-size: 3vh;}
+@media only screen and (max-width: 500px){
+    .instagramL {font-size: 2vh;}
 }
 
 .twitter {
@@ -254,6 +334,16 @@ body {
     align-self: center;
     background-image: url(imagenes/twitterColor.png);
     background-size: cover;
+}
+
+/*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
+@media only screen and (max-width: 500px){
+    .twitter{  
+        width: 5vh;
+        height: 5vh; 
+        background-image: url(imagenes/twitterColor.png);
+        background-size: cover;
+    }
 }
 
 .twitter:hover{
@@ -272,8 +362,8 @@ body {
 
 .twitterL:hover{background-color: rgba(82, 224, 212, 0.781);}
 
-@media only screen and (max-width: 400px){
-    .twitterL {font-size: 3vh;}
+@media only screen and (max-width: 500px){
+    .twitterL {font-size: 2vh;}
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -299,6 +389,18 @@ body {
     width: 100%;
 }
 
+/*MEDIA SCREEN CELULARES FOOTER*/
+@media only screen and (max-width: 500px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: solid 3px rgb(39, 39, 39);
+        box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
+        width: 100%;
+    }
+}
+
 .footer p {
     width: 43vh;
     background-color: rgba(20, 20, 20, 0.829);
@@ -309,13 +411,14 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES FOOTER*/
-@media only screen and (max-width: 400px){
-    .footer {
-        display: flex;
-        flex-direction: column;
-        border-top: solid 3px rgb(39, 39, 39);
-        box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
-        width: 100%;
+@media only screen and (max-width: 500px){
+    .footer p {
+        width: 20vh;
+        background-color: rgba(20, 20, 20, 0.829);
+        text-shadow: 3px 3px 10px 10px rgb(233, 233, 233);
+        color: whitesmoke;
+        font-size: 3vh;
+        font-family: 'Bebas Neue', sans-serif;
     }
 }
 
@@ -360,7 +463,7 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES productos*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .container-slider1, .container-slider2, .container-slider3, .container-slider4, .container-slider5 {
         width: 90%;
         object-fit: cover;
@@ -450,7 +553,7 @@ body {
 }
 
 /*MEDIA SCREEN CELULARES botonFondo*/
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .botonCambioFondo {
         width: 30px;
         height: 40px;
@@ -465,410 +568,4 @@ body {
         text-decoration: none;
         color: white;
     }
-=======
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-image: url(imagenes/tanques.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    width: 100%;
-    height: 330vh;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.cajaGrande {
-    padding: 20px;
-    display: flex;
-    align-items: stretch;
-    height: 15vh;
-    background-color: rgba(68, 56, 16, 0.432);
-}
-
-/*MEDIA SCREEN CELULARES ICONOS*/
-@media only screen and (max-width: 400px){
-    .cajaGrande{
-        padding: 20px;
-        align-items: stretch;
-        display: flex;
-        height: 15vh;
-        background-color: rgba(68, 56, 16, 0.432);
-    }
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
-    padding-top: 5vh;
-    color: #ffffff;
-    font-size: 5vh;
-    width: 100%;
-    text-decoration: none;
-    text-shadow: 4px 4px 5px black;
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border-radius: 30px;
-}
-
-.inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
-    background-size: 50vh;
-}
-
-.inicioImagen1 {
-    background-image: url(imagenes/jeep.png);
-}
-
-/*MEDIA SCREEN CELULARES ICONOS*/
-@media only screen and (max-width: 400px){
-    .inicioImagen1, .inicioImagen2, .inicioImagen3, .inicioImagen4 {
-        background-size: 10vh;
-        font-size: 2vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        border-radius: 50px;
-    }
-}
-
-.inicioImagen2{
-    background-image: url(imagenes/mira.jpg);
-}
-
-.inicioImagen3{
-    background-image: url(imagenes/stuff.jpg);
-}
-
-.inicioImagen4{
-    background-image: url(imagenes/chica.png);
-}
-
-.inicioImagen1:hover,.inicioImagen2:hover,.inicioImagen3:hover,.inicioImagen4:hover {
-    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
-    text-shadow: 4px 4px 5px black;
-}
-
-/************************************ACERCA DE NOSOTROS*****************************************************/
-.imagenCajaGrande {
-    width: 100%;
-    height: 60%;
-    background: url(imagenes/nosotros.jpg);
-    backdrop-filter: blur(0.3rem);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
-/*MEDIA SCREEN CELULARES CAJAS IMAGEN FONDO*/
-@media only screen and (max-width: 400px){
-    .imagenCajaGrande {
-        width: 100%;
-        height: 90vh;
-    }
-}
-
-.muchoTexto {
-    color:white;
-    text-shadow: 3px 3px 3px black;
-    width: 80%;
-    height: fit-content;
-    font-size: 4vh;
-    backdrop-filter: none;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-/*MEDIA SCREEN CELULARES .muchoTexto*/
-@media only screen and (max-width: 400px){
-    .muchoTexto {
-        color:white;
-        text-shadow: 3px 3px 3px black;
-        width: 90%;
-        height: fit-content;
-        font-size: 1.5vh;
-        backdrop-filter: none;
-        transform: translate(-50%, -50%);
-        position: absolute; 
-    }
-}
-
-/*****************************************************************************************/
-
-.cajaGrande2 {
-    background-color: rgba(21, 39, 24, 0.705);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    width: 100%;
-    box-shadow: 1px 1px 5px 5px #3b3b3b, 1px 1px 24px 24px #161616;
-}
-
-.cajaChica1,.cajaChica2 {
-    font-size: 5vh;
-    display: flex;
-    justify-content: center;
-    width: 70vh;
-}
-
-/*MEDIA SCREEN CELULARES CAJAS FB INSTA TWITTER*/
-@media only screen and (max-width: 400px){
-    .cajaChica1,.cajaChica2 {
-        width: 60vh;
-        justify-content: space-between;
-    }
-}
-
-.cajaChica2{
-    align-self: center;
-}
-
-.linkedin {
-    
-    width: 10vh;
-    height: 10vh; 
-    background-image: url(imagenes/linkedinColor.png);
-    background-size: cover;
-}
-
-.linkedin:hover{
-    background-color: transparent;
-    filter: drop-shadow(0 0 0.75rem rgb(51, 86, 201));
-}
-
-.linkedinL {
-    background-color: transparent;
-    font-size: 6vh;
-    color: white;
-    text-shadow: 3px 3px 3px black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.linkedinL:hover { background-color: rgba(0, 102, 255, 0.664);}
-
-@media only screen and (max-width: 400px){
-    .linkedinL {font-size: 3vh;}
-}
-
-.instagram {
-    width: 10vh;
-    height: 10vh; 
-    background-image: url(imagenes/instagramColor.png);
-    background-size: cover;
-}
-
-.instagram:hover{
-    background-color: transparent;
-    filter: drop-shadow(0 0 0.75rem rgb(255, 1, 234));
-}
-
-.instagramL {
-    background-color: transparent;
-    color: white;
-    text-shadow: 3px 3px 3px black;
-    font-size: 6vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.instagramL:hover {background-color: rgb(187, 190, 7);}
-
-@media only screen and (max-width: 400px){
-    .instagramL {font-size: 3vh;}
-}
-
-.twitter {
-    width: 10vh;
-    height: 10vh; 
-    align-self: center;
-    background-image: url(imagenes/twitterColor.png);
-    background-size: cover;
-}
-
-.twitter:hover{
-    background-color: transparent;
-    filter: drop-shadow(0 0 0.75rem rgb(82, 224, 213));
-}
-
-.twitterL {
-    text-shadow: 3px 3px 3px black;
-    color: white;
-    background-color: transparent;
-    font-size: 6vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.twitterL:hover{background-color: rgba(82, 224, 212, 0.781);}
-
-@media only screen and (max-width: 400px){
-    .twitterL {font-size: 3vh;}
-}
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-.video {
-    box-shadow: 1px 1px 5px 5px #353535, 1px 1px 24px 24px #000000;
-    align-items: center;
-    min-width: auto;
-    min-height: auto;
-}
-
-.footer > *{
-    height: 1vh;
-    padding: 10vh;
-}
-
-.footer {
-    display: flex;
-    flex-direction:row;
-    background-color: rgba(20, 20, 20, 0.829);
-    border-top: solid 3px rgba(39, 39, 39, 0.493);
-    box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
-    width: 100%;
-}
-
-.footer p {
-    width: 43vh;
-    background-color: rgba(20, 20, 20, 0.829);
-    text-shadow: 3px 3px 10px 10px rgb(233, 233, 233);
-    color: whitesmoke;
-    font-size: 3vh;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-/*MEDIA SCREEN CELULARES FOOTER*/
-@media only screen and (max-width: 400px){
-    .footer {
-        display: flex;
-        flex-direction: column;
-        border-top: solid 3px rgb(39, 39, 39);
-        box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
-        width: 100%;
-    }
-}
-
-.copyright, .copyright > *{ 
-    background-color: rgba(20, 20, 20, 0.829);
-    font-style: italic;
-    text-decoration: underline rgb(226, 226, 226);
-}
-
-
-.subir {
-    background-color: rgba(20, 20, 20, 0.829);
-    width: 43vh;
-    max-height: fit-content;
-    display: flex;
-    justify-content: center;
-}
-
-.icono{
-    background-image: url(imagenes/arriba.png);
-    background-size: cover;
-    height: 4vh;
-    width: 4vh;
-}
-
-.icono:hover{
-    transform: scale(4);
-    height: 20px;
-    width: 20px;
-    transition: all 1s;
-}
-
-/*********************** slider Borcegos ********************************/
-.container-slider1, .container-slider2, .container-slider3, .container-slider4, .container-slider5  {
-    width: 80%;
-    max-width: 100vh;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    border-radius: 30px;
-    margin-top: 40px;
-}
-
-/*MEDIA SCREEN CELULARES productos*/
-@media only screen and (max-width: 400px){
-    .container-slider1, .container-slider2, .container-slider3, .container-slider4, .container-slider5 {
-        width: 90%;
-        object-fit: cover;
-        border-radius: 50px;
-        overflow: hidden;
-    }
-}
-
-.slider1, .slider2, .slider3, .slider4, .slider5 {
-    display: flex;
-    width: 300%;
-    height: 50vh;
-    margin-left: -100%;
-    
-}
-
-.slider__selection1, .slider__selection2, .slider__selection3, .slider__selection4, .slider__selection5  {
-    width: 100%;
-    display: inline-block;
-}
-
-.slider__img1, .slider__img2, .slider__img3, .slider__img4, .slider__img5 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.slider__img1{background-image: url(imagenes/cammoGray.jpg);}
-.slider__img2{background-image: url(imagenes/cammoBlack.jpg);}
-.slider__img3{background-image: url(imagenes/cammoRaro.png);}
-.slider__img4{background-image: url(imagenes/cammoSand.png);}
-.slider__img5{background-image: url(imagenes/cammoVerde.jpg);}
-
-.slider__img1:hover, .slider__img2:hover, .slider__img3:hover, .slider__img4:hover ,.slider__img5:hover {
-    object-fit: scale-down;
-}
-
-.slider__btn1, .slider__btn2, .slider__btn3, .slider__btn4, .slider__btn5 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: rgba(165, 165, 165, 0.973);
-    box-shadow: 1px 1px 5px 5px #353535, 1px 1px 24px 24px #000000;
-    top: 50%;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.slider__btn-left1, .slider__btn-left2, .slider__btn-left3, .slider__btn-left4, .slider__btn-left5 {
-    left: 10px;
-}
-
-.slider__btn-right1, .slider__btn-right2, .slider__btn-right3, .slider__btn-right4, .slider__btn-right5 {
-    right: 10px;
-}
-
-.slider__btn1:hover, .slider__btn2:hover, .slider__btn3:hover, .slider__btn4:hover, .slider__btn5:hover {
-    background-color: rgb(238, 238, 238);
-}
-
-.slider-transition {
-    transition: all 0.5s;
->>>>>>> 6632f60892b9929791563c36008db2b89cc1f590
 }
